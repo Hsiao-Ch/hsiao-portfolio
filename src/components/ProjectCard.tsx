@@ -31,9 +31,7 @@ export function ProjectCard({
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
-      whileHover={{ y: -8 }}
+      onClick={() => window.open(`/hsiao-portfolio/#${readmore}`)}
       transition={{ duration: 0.3 }}
       className="relative group"
     >

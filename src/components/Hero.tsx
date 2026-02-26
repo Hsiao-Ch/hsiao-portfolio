@@ -73,9 +73,9 @@ export function Hero() {
               whileTap={{ scale: 0.98 }}
               className="px-6 py-3 rounded-full bg-gradient-to-r from-[#FFB7C5] to-[#FFC9D6] text-white shadow-lg shadow-[#FFB7C5]/30 cursor-pointer"
             >
-              <HashLink to="/projects-page" smooth>
+              {/* <HashLink to="/projects-page" smooth>
                 我的作品
-              </HashLink>
+              </HashLink> */}
             </motion.a>
 
             <motion.a
